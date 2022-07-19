@@ -1,0 +1,18 @@
+Terceiro relatório
+
+Prazo July 24, 2022 11:59 PM
+Instructions
+
+Prezadas e Prezados
+
+Neste relatório testaremos uma relação causal entre algum programa implementado e o desempenho. Voltemos a nossa função de produção de conhecimento  e nos concentremos em uma variável em particular (ead? noturno? Bolsa prouni?) para estimar uma regressão com variáveis instrumentais. -> Vamos portanto procurar os instrumentos válidos para controlar a seleção para o programa escolhido <-. Estamos adicionando um nível de dificuldade com relação ao relatório anterior, e mais dois testes (hausman para ver se é endógeno e Sargan se tiver uma equação superespecificada para testar os instrumentos). O nível de dificuldade a mais é que agora teremos uma regressão inteira e não apenas a média para corrigir! Temos portanto:
+NG=F(NSE, IES, Esforço, ..., programa de interesse)
+Programa de interesse = G(características observáveis de seleção)
+Qual é o impacto então do EAD, PROUNI, BOLSA PERMANˆENCIA, ETC sobre o desempenho dos alunos?
+
+Critérios de Correção
+-Estrutura do texto
+-Caracterização e descrição do programa proposto a ser analisado
+-Justificativas das variáveis incluídas no modelo de seleção
+-Comparação das probabilidades e condição de balanceamento dos grupos comparáveis
+-Estimação do impacto do programa no aprendizado. Identificação se LATE ou ATE
